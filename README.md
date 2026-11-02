@@ -8,7 +8,7 @@
 
 DK-Shop presents Deborah's handmade clothing: "Cut it, sew it, wear it." The site is an immersive, award-site-style portfolio - oversized type, full-screen photography, a scroll-driven gallery - built around her collections and photo shoots.
 
-This is a real client project, not a concept: Deborah updates the site herself by adding photos to shared albums, with no code change or redeploy needed.
+This is a real client project, not a concept: photos Deborah adds to her shared albums show up on the site by themselves, with no code change.
 
 ## Features
 
@@ -52,7 +52,7 @@ npm run dev
 
 Then open http://localhost:5173.
 
-The site works out of the box with its bundled photos. To serve live albums, set the `ALBUM_SHARE_URLS` environment variable (server-side only, see `api/albums.ts`) on your Vercel project. Albums named Hero, Dresses, Jackets and Pants fill the matching page slots; the other albums become carousel slides and gallery pages.
+The site works out of the box with its bundled photos. To serve live albums, set the `ALBUM_SHARE_URLS` environment variable (server-side only, see `api/albums.ts`) on your Vercel project. Albums named Hero, Dresses, Jackets and Pants fill the matching page slots; the other albums become carousel slides and gallery pages. New photos added to a configured album appear on their own; adding a brand-new album means updating this variable and redeploying.
 
 ## Project Structure
 
