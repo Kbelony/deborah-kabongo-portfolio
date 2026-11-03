@@ -1,12 +1,12 @@
-# DK-Shop
+# Deborah Kabongo
 
 > Portfolio website for **Deborah Kabongo**, a clothing designer and maker.
 
-**Live site:** [dkshop-omega.vercel.app](https://dkshop-omega.vercel.app)
+**Live site:** [deborah-kabongo.vercel.app](https://deborah-kabongo.vercel.app)
 
 ## About
 
-DK-Shop presents Deborah's handmade clothing: "Cut it, sew it, wear it." The site is an immersive, award-site-style portfolio - oversized type, full-screen photography, a scroll-driven gallery - built around her collections and photo shoots.
+This portfolio presents Deborah's handmade clothing: "Cut it, sew it, wear it." The site is an immersive, award-site-style portfolio - oversized type, full-screen photography, a scroll-driven gallery - built around her collections and photo shoots.
 
 This is a real client project, not a concept: photos Deborah adds to her shared albums show up on the site by themselves, with no code change.
 
@@ -44,8 +44,8 @@ This is a real client project, not a concept: photos Deborah adds to her shared 
 ## Getting Started
 
 ```bash
-git clone https://github.com/Kbelony/DK-Shop.git
-cd DK-Shop
+git clone https://github.com/Kbelony/deborah-kabongo-portfolio.git
+cd deborah-kabongo-portfolio
 npm install
 npm run dev
 ```
